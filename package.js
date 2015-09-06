@@ -1,8 +1,8 @@
 Package.describe({
   name: 'jzwzz:amqp10',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'AMQP10 driver for node',
-  git: 'https://github.com/jzwzz/amqp10',
+  git: 'https://github.com/jzwzz/amqp10'
 });
 
 Npm.depends({
