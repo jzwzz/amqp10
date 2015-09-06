@@ -1,12 +1,8 @@
 Package.describe({
   name: 'jzwzz:amqp10',
-  version: '0.0.2',
+  version: '1.0.1',
   summary: 'AMQP10 driver for node',
   git: 'https://github.com/jzwzz/amqp10'
-});
-
-Npm.depends({
-  "amqp10": "1.0.3"
 });
 
 Package.onUse(function(api) {
@@ -16,8 +12,6 @@ Package.onUse(function(api) {
   }
 });
 
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('jzwzz:amqp10');
-  api.addFiles('amqp10-tests.js');
+Npm.depends({
+  "amqp10": "1.0.3"
 });
